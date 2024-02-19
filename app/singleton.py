@@ -1,5 +1,4 @@
 import random
-#Singleton em Python
 class Mapa(): 
     _instance = None
 
