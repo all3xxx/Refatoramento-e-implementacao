@@ -1,0 +1,9 @@
+1. Métodos grandes e com mais de uma função. (setPlayers) onde cria o jogador e faz a verificação do mesmo para ver se é válido.
+
+2. Em (setTerritories) a criação e chamada dos territórios está em uma única def, é melhor criar uma função para chamar os territórios e depois uma para atribuir essa lista criada anteriormente.
+
+3. Comentário desnecessário: "Singletom em Python" já é o nome do arquivo em py e colocá-lo no arquivo como comentário não é revelante.
+
+4. Variável com nome confuso: "listIdentificationsPlayerMapa", poderia ser um nome mais simples como identifica_player.
+
+5. A função ( def sortTerritories(self) ) tem muita informação e deixa o código difícil de entender.
